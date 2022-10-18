@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap");
+body {
+  font-family: "Fuzzy Bubbles", cursive;
+}
+.heading {
+  text-align: center;
+}
+/* week */
+.week {
+  display: grid;
+  grid-template-areas: "auto auto auto auto auto auto auto";
+  grid-gap: 38px;
+  justify-content: start;
+}
+
+.boxer {
+  border: 1px solid dodgerBlue;
+  border-radius: 4px;
+  padding: 20px;
+}
+/* date */
+.support {
+  padding: 10px 0;
+}
+.dateList {
+  display: grid;
+  gap: 20px 50px;
+  grid-template-areas: "auto auto auto auto auto auto auto";
+  justify-content: start;
+}
+.boxerList {
+  border: 1px solid crimson;
+  border-radius: 4px;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  line-height: 50px;
+}
+/* input */
